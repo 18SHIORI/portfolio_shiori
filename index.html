@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rounded+Mplus+1c:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- 自分のCSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <!-- PC用：右上の白いカプセル -->
+        <nav class="header_nav" aria-label="グローバルナビ">
+            <ul class="header_menu gnavi">
+                <li class="current"><a href="#works">works</a></li>
+                <li class="current"><a href="#service">service</a></li>
+                <li class="current"><a href="#about">about</a></li>
+                <li class="current"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- SP用：ハンバーガー -->
+        <!-- <button class="hamburger" type="button" aria-controls="navi" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button> -->
+        <!-- <div class="open_btn"><span></span><span></span><span></span></div> -->
+
+        <!-- SP用：開くメニュー -->
+        <!-- <nav id="navi" class="sp_nav" aria-label="スマホメニュー">
+            <button type="button" class="nav_close" aria-label="メニューを閉じる"></button>
+
+            <ul class="nav_menu">
+                <li><a href="#works">works</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav> -->
+        <div class="open_btn"><span></span><span></span><span></span></div>
+
+        <nav id="g-nav" class="g-nav">
+            <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                <ul>
+                    <li><a href="#works">works</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="circle-bg"></div>
+
+        <div class="mask"></div>
+    </header>
+
+    <main>
+        <div class="main_visual">
+            <div class="main_visual_inner">
+                <h1><a href="index.html" class="glowAnime">portfolio</a></h1>
+            </div>
+        </div>
+
+        <section id="works" class="works wrapper">
+            <h2 class="section_title fade_in" data-delay="0">works</h2>
+            <div class="works_scroll fade_in" data-delay="400">
+                <ul class="works_list">
+                    <li class="works_item">
+                        <a href="https://18shiori.github.io/CloudlineRetreat_ree/" target="_blank">
+                            <div class="works_image_container works_image_container_1 shine">
+                                <div class="works_image">
+                                    <img src="images/works_1.png" alt="オリジナルサイトの画像">
+                                </div>
+                            </div>
+                            <p>オリジナルサイト
+                                <br class="works_sp">
+                                <span class="tap_text">（タップで詳細を確認）</span>
+                            </p>
+                        </a>
+                    </li>
+                    <!-- <li class="works_item">
+                        <a href="work1.html">
+                            <div class="works_image_container works_image_container_2">
+                                <div class="works_image">
+                                    <img src="css/images/works_1.png" alt="オリジナルサイトの画像">
+                                </div>
+                            </div>
+                            <p>オリジナルサイト</p>
+                        </a>
+                    </li> -->
+                    <!-- <li class="works_item">
+                        <a href="work1.html">
+                            <div class="works_image_container works_image_container_3">
+                                <div class="works_image">
+                                    <img src="css/images/works_1.png" alt="オリジナルサイトの画像">
+                                </div>
+                            </div>
+                            <p>オリジナルサイト</p>
+                        </a>
+                    </li> -->
+
+                </ul>
+            </div>
+
+            <!-- <button class="works_more_btn">more</button> -->
+        </section>
+
+        <section id="service" class="service wrapper">
+            <h2 class="section_title fade_in" data-delay="0">service</h2>
+            <div class="service_container fade_in" data-delay="200">
+                <ul class="service_item">
+                    <li class="service_card shine">
+                        <div class="service_front fade_in" data-delay="300">
+                            <h3>web cording</h3>
+                            <button class="service_click_btn">click</button>
+                        </div>
+                        <div class="service_back">
+                            <p>デザインを大切にしながら、<br class="service_sp_br">丁寧にコーディングを行います。<br>
+                                見た目だけでなく、使いやすさや読みやすさを<br class="service_sp_br">意識しています。</p>
+                            <button class="service_close_btn">close</button>
+                        </div>
+                    </li>
+                    <li class="service_card shine">
+                        <div class="service_front fade_in" data-delay="500">
+                            <h3>word press</h3>
+                            <button class="service_click_btn">click</button>
+                        </div>
+                        <div class="service_back">
+                            <p>更新しやすいword pressサイトの<br class="service_sp_br">構築を行います。<br>
+                                ブログやお知らせなど、ご自身で運用できる形を<br class="service_sp_br">ご提案します。</p>
+                            <button class="service_close_btn">close</button>
+                        </div>
+                    </li>
+                    <li class="service_card shine">
+                        <div class="service_front fade_in" data-delay="700">
+                            <h3>consultation</h3>
+                            <button class="service_click_btn">click</button>
+                        </div>
+                        <div class="service_back">
+                            <p>制作前に丁寧なヒアリングを行い、<br class="service_sp_br">想いや世界観を一緒に整理します。<br>
+                                言葉にならないイメージも、<br class="service_sp_br">安心してお話しください。</p>
+                            <button class="service_close_btn">close</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="about wrapper">
+            <h2 class="section_title fade_in" data-delay="0">about</h2>
+            <div class="about_container fade_in" data-delay="200">
+                <div class="about_item_left fade_in" data-delay="300">
+                    <div class="about_item_left_inner">
+                        <img src="images/me_black.png" alt="自己紹介画像">
+                    </div>
+                </div>
+                <div class="about_item_right fade_in" data-delay="500">
+                    <div class="about_item_right_inner">
+                        <div class="about_item_right_inner_text">
+                            <p>看護師として長く働く中で、人の気持ちに寄り添い、<span class="sp_br"></span>丁寧に向き合うことを大切にしてきました。</p>
+                            <p>看護師として人と向き合う時間の中で、ただ支えるだけでなく、<span class="sp_br"></span>何かを"形"として残せる仕事にも惹かれるようになりました。</p>
+                            <p>想いをかたちにできるweb制作は、<span class="sp_br"></span>私にとって新しい挑戦であり、大切な表現の場でもあります。</p>
+                            <p>一つひとつ丁寧に向き合いながら、制作を行なっています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact wrapper">
+            <h2 class="section_title fade_in" data-delay="0">contact</h2>
+            <div class="contact_container fade_in" data-delay="200">
+
+                <div class="contact_details fade_in" data-delay="300">
+                    <div class="contact_details_text">
+                        <p>制作のご相談やご質問など、お気軽にご連絡ください。</p>
+                        <p>お一人おひとりの想いに寄り添いながら、丁寧に対応いたします。</p>
+                    </div>
+                    <div class="contact_images_letter">
+                        <img src="images/letter_new1.png" alt="メールの画像">
+                    </div>
+                </div>
+
+                <form class="fade_in" data-delay="500" action="https://formspree.io/f/xojylyll" method="POST">
+                    <div class="form_field">
+                        <label class="form_label" for="name">お名前</label>
+                        <input class="form_input" id="name" name="name" type="text">
+                    </div>
+                    <div class="form_field">
+                        <label class="form_label" for="email">メールアドレス</label>
+                        <input class="form_input" id="email" name="email" type="email">
+                    </div>
+                    <div class="form_field">
+                        <label class="form_label" for="message">お問い合わせ内容</label>
+                        <textarea class="form_textarea" id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="submit_btn">send message</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- <div class="footer_container"> -->
+        <div class="footer_item">
+            <div class="footer_item_left">
+                <p><a href="index.html">portfolio</a></p>
+            </div>
+
+            <div class="footer_item_right">
+                <ul>
+                    <li><a href="#works">works</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- </div> -->
+    </footer>
+
+    <p class="footer_copy">&copy; 2026 Shiori</p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
