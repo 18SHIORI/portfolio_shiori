@@ -529,7 +529,7 @@ works
 }
 
 .shine:hover::before {
-    animation: shine 0.7s;
+    animation: shine 1.2s;
 }
 
 .tap_text {
@@ -616,7 +616,7 @@ service
 }
 
 .service_card.shine:hover::before {
-    animation: shine 1.2s;
+    animation: shine 2.0s;
 }
 
 .service_click_btn {
@@ -1022,5 +1022,3 @@ footer {
     font-size: var(--fs-small);
     margin: 1rem 0 2rem;
 }
-
-
